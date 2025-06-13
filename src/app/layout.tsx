@@ -10,12 +10,10 @@ const DMSans = DM_Sans({
 
 export const metadata: Metadata = {
   title: "Rakesh Das",
-  description:
-    "I am an Indie Hacker or a SaaS Creator. I've launched over 10 startups (SaaS) in the last 5 years, each focusing on easy-to-use and secure tech solutions.",
+  description: "I Build Product not Project",
   openGraph: {
     title: "Rakesh Das",
-    description:
-      "I am an Indie Hacker or a SaaS Creator. I've launched over 10 startups (SaaS) in the last 5 years, each focusing on easy-to-use and secure tech solutions.",
+    description: "I Build Product not Project",
     url: "https://hextaui-portfolio.vercel.app",
     type: "website",
     images: [
@@ -29,12 +27,11 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "@preetsuthar17",
-    creator: "@preetsuthar17",
-    title: "Preet Suthar",
-    description:
-      "I am an Indie Hacker or a SaaS Creator. I've launched over 10 startups (SaaS) in the last 5 years, each focusing on easy-to-use and secure tech solutions.",
-    images: "https://hextaui-portfolio.vercel.app/twitter-image.png",
+    site: "@RakeshDas00001",
+    creator: "@RakeshDas00001",
+    title: "Rakesh Das",
+    description: "I Build Product not Project",
+    images: "nada",
   },
   viewport: "width=device-width, initial-scale=1",
   robots: "index, follow",
@@ -48,13 +45,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* The below meta tags can be removed if you rely on Next.js metadata export */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="Preet Suthar" />
-        <meta
-          property="og:description"
-          content="I am an Indie Hacker or a SaaS Creator. I've launched over 10 startups (SaaS) in the last 5 years, each focusing on easy-to-use and secure tech solutions."
-        />
+        <meta property="og:title" content="Rakesh Das" />
+        <meta property="og:description" content="I Build Product not Project" />
         <meta
           property="og:url"
           content="https://hextaui-portfolio.vercel.app"
@@ -65,21 +60,19 @@ export default function RootLayout({
           content="https://hextaui-portfolio.vercel.app/og-image.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@preetsuthar17" />
-        <meta name="twitter:creator" content="@preetsuthar17" />
-        <meta name="twitter:title" content="Preet Suthar" />
+        <meta name="twitter:site" content="@RakeshDas00001" />
+        <meta name="twitter:creator" content="@RakeshDas00001" />
+        <meta name="twitter:title" content="Rakesh Das" />
         <meta
           name="twitter:description"
-          content="I am an Indie Hacker or a SaaS Creator. I've launched over 10 startups (SaaS) in the last 5 years, each focusing on easy-to-use and secure tech solutions."
+          content="I Build Product not Project"
         />
         <meta
           name="twitter:image"
           content="https://hextaui-portfolio.vercel.app/twitter-image.png"
         />
       </head>
-      <body
-        className={`${DMSans.variable} font-[family-name:var(--font-dm-sans)] antialiased`}
-      >
+      <body className={`${DMSans.variable} font-sans antialiased`}>
         {children}
       </body>
     </html>
