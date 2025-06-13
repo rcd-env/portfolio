@@ -18,83 +18,46 @@ interface Props {}
 
 const Projects: NextPage<Props> = ({}) => {
   const projects: Project[] = [
-    // {
-    //   title: "HextaUI",
-    //   description: "Build stunning websites with less effort.",
-    //   image: "https://i.imgur.com/9O0axI0.png",
-    //   link: "https://hextaui.com",
-    //   tags: ["Next.js", "TypeScript", "Tailwind", "Framer Motion"],
-    // },
-    // {
-    //   title: "HextaStudio",
-    //   description: "Convert your ideas into successful business.",
-    //   image: "https://i.imgur.com/EgwECb7.png",
-    //   link: "https://hextastudio.in",
-    //   tags: ["Next.js", "TypeScript", "Tailwind"],
-    // },
-    // {
-    //   title: "Roastt",
-    //   description: "Get your website's hero section redesigned.",
-    //   image: "https://i.imgur.com/B3y8Ivv.png",
-    //   link: "https://roastt.hextastudio.in",
-    //   tags: ["Next.js", "TypeScript", "Tailwind"],
-    // },
-    // {
-    //   title: "RateThisTool",
-    //   description: "Effortless feedback system for your SaaS.",
-    //   image: "https://i.imgur.com/mfFyt3j.png",
-    //   link: "https://ratethistool.vercel.app/",
-    //   tags: [
-    //     "Next.js",
-    //     "TypeScript",
-    //     "Tailwind",
-    //     "NextAuth",
-    //     "MongoDB",
-    //     "LemonSqueezy",
-    //   ],
-    // },
-    // {
-    //   title: "IndieHub",
-    //   description: "The only Hub made for Indie Hackers.",
-    //   image: "https://i.imgur.com/CnEsNFo.png",
-    //   link: "https://indiehub.hextastudio.in/",
-    //   tags: [
-    //     "Next.js",
-    //     "TypeScript",
-    //     "Tailwind",
-    //     "NextAuth",
-    //     "MongoDB",
-    //     "LemonSqueezy",
-    //   ],
-    // },
-    // {
-    //   title: "ContraFast",
-    //   description: "Create & Sign Contracts 10x Faster",
-    //   image: "https://i.imgur.com/07g0WC2.png",
-    //   link: "https://contrafast.in/",
-    //   tags: [
-    //     "Next.js",
-    //     "TypeScript",
-    //     "Tailwind",
-    //     "NextAuth",
-    //     "MongoDB",
-    //     "LemonSqueezy",
-    //   ],
-    // },
-    // {
-    //   title: "NextLaunch",
-    //   description: "Launch Your SaaS Faster Than Ever.",
-    //   image: "https://i.imgur.com/t8XAZOr.png",
-    //   link: "https://nextlaunch.vercel.app/",
-    //   tags: [
-    //     "Next.js",
-    //     "TypeScript",
-    //     "Tailwind",
-    //     "NextAuth",
-    //     "MongoDB",
-    //     "LemonSqueezy",
-    //   ],
-    // },
+    {
+      title: "RoomGo",
+      description:
+        "A web platform to list, discover, and book vacation stays. Includes features like filtering, reviews, and map integration.",
+      image: "/assets/RoomGo.png",
+      link: "nada",
+      tags: ["Node.js", "Express.js", "MongoDB", "BootStrap", "EJS"],
+    },
+    {
+      title: "Amazon Homepage Clone",
+      description:
+        "A static replica of Amazon's homepage built for design and layout practice. Not responsive yet.",
+      image: "/assets/AmazonClone.png",
+      link: "https://amazon-clone-virid-seven.vercel.app/",
+      tags: ["HTML", "CSS"],
+    },
+    {
+      title: "Line Dropper",
+      description:
+        "A content generation tool that helps creators craft perfect social media posts. Just enter a topic, tone, length, and platform — it suggests optimized titles, hashtags, and descriptions.",
+      image: "/assets/LineDropper.png",
+      link: "https://line-dropper.vercel.app/",
+      tags: ["Node.js", "Express.js", "OpenAI API", "HTML", "CSS"],
+    },
+    {
+      title: "ClimaSphere",
+      description:
+        "A sleek weather app that provides real-time weather updates based on your location or search queries.",
+      image: "/assets/ClimaSphere.png",
+      link: "https://weather-wizard-topaz.vercel.app/",
+      tags: ["JavaScript", "HTML", "CSS", "OpenWeather API"],
+    },
+    {
+      title: "Simon Says Game",
+      description:
+        "A fun, interactive memory game built with JavaScript, replicating the classic 'Simon Says' gameplay.",
+      image: "/assets/SimonSaysGame.png",
+      link: "https://simon-says-game-murex.vercel.app/",
+      tags: ["JavaScript", "HTML", "CSS"],
+    },
   ];
 
   return (

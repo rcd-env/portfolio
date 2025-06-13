@@ -79,7 +79,7 @@ const Hero: NextPage<Props> = ({}) => {
           className="flex justify-end items-end pointer-events-none"
         >
           <Image
-            src="/PFP.jpeg"
+            src="/assets/PFP.jpeg"
             alt="Rakesh"
             width={150}
             height={150}
