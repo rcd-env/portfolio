@@ -8,16 +8,7 @@ function getRandomInt(min: number, max: number) {
 }
 
 function getRandomColor() {
-  const colors = [
-    "pink",
-    "purple",
-    "blue",
-    "teal",
-    "cyan",
-    "yellow",
-    "orange",
-    "red",
-  ];
+  const colors = ["pink", "purple", "blue", "teal", "cyan"];
   return colors[getRandomInt(0, colors.length - 1)];
 }
 

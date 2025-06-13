@@ -19,7 +19,7 @@ const Connect: NextPage = () => {
       link: "https://github.com/rcd-env",
     },
     {
-      name: "Twitter",
+      name: "X (Twitter)",
       icon: <Twitter size={20} />,
       link: "https://twitter.com/RakeshDas00001",
     },
