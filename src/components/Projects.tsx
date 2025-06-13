@@ -20,8 +20,7 @@ const Projects: NextPage<Props> = ({}) => {
   const projects: Project[] = [
     {
       title: "RoomGo",
-      description:
-        "Currently working on it.",
+      description: "Currently working on it.",
       image: "/assets/RoomGo.png",
       link: "nada",
       tags: ["Node.js", "Express.js", "MongoDB", "BootStrap", "EJS"],
@@ -125,6 +124,8 @@ const Projects: NextPage<Props> = ({}) => {
           ))}
         </motion.div>
       </div>
+
+      <hr className="border-white/20 mt-4" />
     </section>
   );
 };

@@ -98,6 +98,7 @@ const Experience: NextPage = () => {
           </motion.div>
         ))}
       </motion.div>
+      <hr className="border-white/20 mt-4" />
     </section>
   );
 };

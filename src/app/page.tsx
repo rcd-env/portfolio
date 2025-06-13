@@ -10,7 +10,7 @@ const Connect = dynamic(() => import("../components/Connect"));
 
 export default function Home() {
   return (
-    <div className="relative flex flex-col gap-24">
+    <div className="relative flex flex-col gap-10">
       <div className="opacity-10">
         <Background />
       </div>

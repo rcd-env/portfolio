@@ -8,7 +8,7 @@ import { motion } from "motion/react";
 interface Props {}
 
 const Hero: NextPage<Props> = ({}) => {
-  const headingText = "Rakesh Das";
+  const headingText = "Rakesh  Das";
 
   const container = {
     hidden: { opacity: 0 },
@@ -39,7 +39,7 @@ const Hero: NextPage<Props> = ({}) => {
             variants={container}
             initial="hidden"
             animate="show"
-            className="text-5xl font-bold tracking-tight text-pretty flex flex-wrap gap-2 max-[670px]:text-center max-[670px]:justify-center max-[670px]:items-center"
+            className="text-5xl font-semibold tracking-tight text-pretty flex flex-wrap gap-2 max-[670px]:text-center max-[670px]:justify-center max-[670px]:items-center"
           >
             <motion.span className="flex flex-wrap gap-2 max-[670px]:text-center max-[670px]:justify-center max-[670px]:items-center">
               {headingText.split(" ").map((word, index) => (
@@ -88,6 +88,9 @@ const Hero: NextPage<Props> = ({}) => {
           />
         </motion.div>
       </div>
+      <br />
+
+      <hr className="border-white/20 mt-4" />
     </section>
   );
 };
