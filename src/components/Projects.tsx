@@ -21,7 +21,7 @@ const Projects: NextPage<Props> = ({}) => {
     {
       title: "RoomGo",
       description:
-        "A web platform to list, discover, and book vacation stays. Includes features like filtering, reviews, and map integration.",
+        "Currently working on it.",
       image: "/assets/RoomGo.png",
       link: "nada",
       tags: ["Node.js", "Express.js", "MongoDB", "BootStrap", "EJS"],
