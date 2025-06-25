@@ -22,7 +22,7 @@ const Projects: NextPage<Props> = ({}) => {
       title: "RoomGo",
       description: "Currently working on it.",
       image: "/assets/RoomGo.png",
-      link: "nada",
+      link: "https://roomgo.onrender.com/",
       tags: ["Node.js", "Express.js", "MongoDB", "BootStrap", "EJS"],
     },
     {
