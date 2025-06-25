@@ -20,7 +20,8 @@ const Projects: NextPage<Props> = ({}) => {
   const projects: Project[] = [
     {
       title: "RoomGo",
-      description: "Currently working on it.",
+      description:
+        "A full-stack accommodation booking platform built with Node.js, Express, MongoDB & Bootstrap. Features property hostings, real-time booking system, user authentication, reviews, and interactive maps.",
       image: "/assets/RoomGo.png",
       link: "https://roomgo.onrender.com/",
       tags: ["Node.js", "Express.js", "MongoDB", "BootStrap", "EJS"],
