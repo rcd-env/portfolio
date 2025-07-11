@@ -27,6 +27,21 @@ const Projects: NextPage<Props> = ({}) => {
       tags: ["Node.js", "Express.js", "MongoDB", "BootStrap", "EJS"],
     },
     {
+      title: "StartNow",
+      description:
+        "A modern Web3 platform that enables founders to pitch startup ideas and raise funds from investors — securely and transparently. Funds are locked in smart contracts and are only released as predefined milestones are achieved, ensuring accountability and trust.",
+      image: "/assets/StartNow.png",
+      link: "https://start-now-xi.vercel.app/",
+      tags: [
+        "MongoDB",
+        "Express.js",
+        "React.js",
+        "Node.js",
+        "Tailwind CSS",
+        "Aptos",
+      ],
+    },
+    {
       title: "Amazon Homepage Clone",
       description:
         "A static replica of Amazon's homepage built for design and layout practice. Not responsive yet.",
