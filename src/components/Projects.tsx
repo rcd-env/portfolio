@@ -42,14 +42,6 @@ const Projects: NextPage<Props> = ({}) => {
       ],
     },
     {
-      title: "Amazon Homepage Clone",
-      description:
-        "A static replica of Amazon's homepage built for design and layout practice. Not responsive yet.",
-      image: "/assets/AmazonClone.png",
-      link: "https://amazon-clone-virid-seven.vercel.app/",
-      tags: ["HTML", "CSS"],
-    },
-    {
       title: "Line Dropper",
       description:
         "A content generation tool that helps creators craft perfect social media posts. Just enter a topic, tone, length, and platform — it suggests optimized titles, hashtags, and descriptions.",
@@ -72,6 +64,14 @@ const Projects: NextPage<Props> = ({}) => {
       image: "/assets/SimonSaysGame.png",
       link: "https://simon-says-game-murex.vercel.app/",
       tags: ["JavaScript", "HTML", "CSS"],
+    },
+    {
+      title: "Amazon Homepage Clone",
+      description:
+        "A static replica of Amazon's homepage built for design and layout practice. Not responsive yet.",
+      image: "/assets/AmazonClone.png",
+      link: "https://amazon-clone-virid-seven.vercel.app/",
+      tags: ["HTML", "CSS"],
     },
   ];
 
