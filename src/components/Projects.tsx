@@ -102,7 +102,12 @@ const Projects: NextPage<Props> = ({}) => {
               className="border border-white border-opacity-10 rounded-xl p-4 hover:bg-white hover:bg-opacity-5 transition-all w-full backdrop-blur-xl"
               key={index}
             >
-              <Link href={project.link} className="flex flex-col gap-4">
+              <Link
+                href={project.link}
+                className="flex flex-col gap-4"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <div className="relative aspect-video w-full overflow-hidden rounded-lg -mb-4">
                   <Image
                     src={project.image}
