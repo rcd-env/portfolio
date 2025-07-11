@@ -21,7 +21,7 @@ const Connect: NextPage = () => {
     {
       name: "X (Twitter)",
       icon: <Twitter size={20} />,
-      link: "https://twitter.com/RakeshDas00001",
+      link: "https://twitter.com/rcd_env",
     },
     {
       name: "LinkedIn",

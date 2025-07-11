@@ -66,7 +66,7 @@ const Navbar: NextPage<Props> = ({}) => {
             </li>
             <li className="hover:bg-white hover:bg-opacity-10 transition-all p-2 rounded-full">
               <Link
-                href="https://x.com/RakeshDas00001"
+                href="https://x.com/rcd_env"
                 target="_blank"
                 className="opacity-80 hover:opacity-100 transition-all"
               >
