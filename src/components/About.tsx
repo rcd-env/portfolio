@@ -11,6 +11,7 @@ const skillSections = [
       { name: "HTML", level: 100 },
       { name: "CSS", level: 90 },
       { name: "JavaScript", level: 85 },
+      { name: "React.js", level: 50 },
       { name: "Tailwind CSS", level: 80 },
       { name: "Bootstrap", level: 80 },
     ],
